@@ -1,0 +1,13 @@
+# general command line
+pytest -v -s
+
+-v verbose
+-q run quietly, the opposite of -v
+
+-s don't capture console output
+
+--ignore ignore specified tests when discovering tests
+
+--maxfail stop after specified number of failures
+
+### useful command line arguments
