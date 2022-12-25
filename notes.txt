@@ -11,3 +11,17 @@ pytest -v -s
 --maxfail stop after specified number of failures
 
 ### useful command line arguments
+
+# run the tests in the directory
+# pytest -v -s testSubDirectory/
+
+# run just the files
+# pytest -v -s assert_exception_test.py
+
+# run only with the given keyword
+#  pytest -v -s -k "test2"
+# running more using the or keyword
+#  pytest -v -s -k "test2 or test3"
+
+# run marked tests, can also use the "or" keyword
+# pytest -v -s -m test12
